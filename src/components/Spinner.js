@@ -41,7 +41,7 @@ import React, { useState } from 'react'; /* STEP 0 */
 
 export default function Spinner() {
 
-  const [spinnerOn, setSpinnerOn] = useState(false)
+  const [spinnerOn, setSpinnerOn] = useState(true)
 
   const toggleSpinner = () => {
     setSpinnerOn(!spinnerOn)
